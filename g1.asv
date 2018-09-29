@@ -1,0 +1,19 @@
+set(0,'defaultTextInterpreter','latex');
+% Create figure
+figure1 = figure;
+
+% Create axes
+axes1 = axes('Parent',figure1);
+hold(axes1,'on');
+
+% Create plot
+plot(lampa.D,lampa.U,'MarkerSize',10,'Marker','o','LineStyle','none','Color',[0 0 0]);
+
+% Create plot
+plot(lampa1.D,lampa1.U,'MarkerSize',10,'Marker','x','LineStyle','none','Color',[0 0 0]);
+
+% Create xlabel
+xlabel({'$\sigma,deg$'},'FontSize',24,'Interpreter','latex');
+
+% Create ylabel
+ylabel({'U, c.u.'},'FontSize',24,'Interpreter','latex');
