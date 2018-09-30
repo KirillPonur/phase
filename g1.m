@@ -13,7 +13,7 @@ plot(lampa4.D,lampa4.U,'MarkerSize',10,'Marker','x','LineStyle','none','Color',[
 plot(lampa5.D,lampa5.U,'MarkerSize',10,'Marker','o','LineStyle','none','Color',[0 0 0]);
 
 % Create xlabel
-xlabel({'$\sigma,deg$'},'FontSize',24,'Interpreter','latex');
+xlabel({'$M,deg$'},'FontSize',24,'Interpreter','latex');
 
 % Create ylabel
 ylabel({'U, c.u.'},'FontSize',24,'Interpreter','latex');
